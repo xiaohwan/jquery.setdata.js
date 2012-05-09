@@ -4,7 +4,9 @@ Template plugin for jQuery
 Xiaoxing Wang (xiaohwan@gmail.com)
 
 # Data Binding Syntax
+```html
 <TAG ... ATTR="data{VALUE[@ATTRIBUTE][;VALUE[@ATTRIBUTE]]*}">...</TAG>
+```
 
 ATTR is a configurable attribute that keeps the data binding in the HTML document.
 VALUE will be set to ATTRIBUTE. If ATTRIBUTE is not specified, VALUE will be set to the textnode.
